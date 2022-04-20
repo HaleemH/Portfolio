@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.greeting {
+  /* width: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 0.8799894957983193) 34%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.greeting h2{ 
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, 0.767);
 }
