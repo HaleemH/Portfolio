@@ -4,9 +4,10 @@ function Greeting() {
     
   return (
     <div className="greeting">
-      
       <p>
-        <h2>Welcome to my <br/> portfolio!</h2>
+        <h2>
+          Welcome to my <br /> portfolio!
+        </h2>
       </p>
     </div>
   );
