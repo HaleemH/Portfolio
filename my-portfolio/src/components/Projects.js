@@ -71,6 +71,7 @@ function Projects() {
                     }}
                   >
                     <h2>{project.name}</h2>
+                    <p>{project.description}</p>
                     <h4>{project.stack}</h4>
                   </CardContent>
                   <CardActions
