@@ -15,3 +15,11 @@
   font-size: 3.5rem;
   color: rgba(255, 255, 255);
 }
+
+.main-project{ 
+  background: rgba(176, 196, 222, 0.449);
+}
+
+.nav-name{
+  flex-grow: 1;
+}
