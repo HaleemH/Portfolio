@@ -1,25 +1,44 @@
+.App {
+  font-family: "Source Sans Pro", sans-serif;
+}
 
 .greeting {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('./assets/nathan-anderson-L95xDkSSuWw-unsplash.jpg');
+  background-image: url("./assets/nathan-anderson-L95xDkSSuWw-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.greeting h2{ 
+/* .greeting p{ 
+  background-color: rgba(255, 255, 255, 0.183);
+  border-radius: 15%;
+  padding:5% 10%;
+} */
+
+.greeting h2 {
   justify-content: center;
   text-align: center;
   font-size: 3.5rem;
   color: rgba(255, 255, 255);
 }
 
-.main-project{ 
+.main-project {
   background: rgba(176, 196, 222, 0.449);
 }
 
-.nav-name{
+.nav-name {
   flex-grow: 1;
+}
+.nav-menu {
+  display: flex;
+}
+
+.contact-info{ 
+  display: flex;
+  width:100%;
+  padding: 10% 1%;
+  justify-content: space-between;
 }
