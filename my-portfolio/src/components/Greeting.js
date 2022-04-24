@@ -1,16 +1,14 @@
-import React from 'react'
+import React from "react";
 
 function Greeting() {
-    
   return (
     <div className="greeting">
       <p>
-        <h2>
-          Welcome to my <br /> portfolio!
-        </h2>
+        Hi, my name is <u>Haleem Hamid</u>. I'm a fullstack engineer and recent
+        graduate from Flatiron School's fullstack software engineering program.
       </p>
     </div>
   );
 }
 
-export default Greeting
+export default Greeting;

@@ -10,6 +10,7 @@
   background-image: url("./assets/nathan-anderson-L95xDkSSuWw-unsplash.jpg");
   background-size: cover;
   background-position: center;
+  color: white;
 }
 
 /* .greeting p{ 
@@ -18,10 +19,12 @@
   padding:5% 10%;
 } */
 
-.greeting h2 {
+.greeting p {
+  font-weight: 300;
+  max-width: 70%;
   justify-content: center;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 2rem;
   color: rgba(255, 255, 255);
 }
 
@@ -41,4 +44,13 @@
   width:100%;
   padding: 10% 1%;
   justify-content: space-between;
+}
+
+.technologies{
+  background:none;
+  margin: 0;
+  padding:5%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }

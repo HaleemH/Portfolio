@@ -1,5 +1,6 @@
 import React from "react";
 import { projects } from "./database";
+import Technologies from "./Technologies";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -16,7 +17,27 @@ function Projects() {
   console.log(projects);
 
   return (
-    <div className="main-project">
+    <div align="center" className="main-project">
+      <Typography
+        component="h1"
+        variant="h2"
+        align="center"
+        color="text.primary"
+        gutterBottom
+        sx={{
+          pt: "5%",
+        }}
+      >
+        Technologies
+      </Typography>
+      <Card
+        sx={{
+          maxWidth: "80vh",
+        }}
+        elevation={9}
+      >
+        <Technologies />
+      </Card>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <main>

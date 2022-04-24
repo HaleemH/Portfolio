@@ -12,7 +12,7 @@ const style = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: 400,
-  bgcolor: "background.paper",
+  bgcolor: "rgba(176, 196, 222, 0.8);",
   border: "2px solid #000",
   borderRadius: "15%",
   boxShadow: 24,
@@ -66,13 +66,13 @@ const handleClose = () => setOpen(false);
       >
         <h3 className="nav-name">Haleem Hamid</h3>
         <div className="nav-menu">
-          <Button
+          {/* <Button
             sx={{
               color: "white",
             }}
           >
-            Projects
-          </Button>
+            Resume
+          </Button> */}
           <Button
             onClick={handleOpen}
             sx={{
