@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import Greeting from "./components/Greeting";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -20,9 +20,9 @@ const style = {
 };
 
 function App() {
-const [open, setOpen] = React.useState(false);
-const handleOpen = () => setOpen(true);
-const handleClose = () => setOpen(false);
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
 
   return (
     <div className="App">
@@ -66,13 +66,6 @@ const handleClose = () => setOpen(false);
       >
         <h3 className="nav-name">Haleem Hamid</h3>
         <div className="nav-menu">
-          {/* <Button
-            sx={{
-              color: "white",
-            }}
-          >
-            Resume
-          </Button> */}
           <Button
             onClick={handleOpen}
             sx={{
